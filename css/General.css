@@ -1,0 +1,67 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer
+{
+
+    border-top: 5px solid rgb(121, 235, 92);
+    background-color: rgb(121, 235, 92);
+    text-align: right;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p
+{
+    padding-right: 5px;
+    color: white;
+}
+
+#navdiv
+{
+    overflow: hidden;
+    background-color: rgb(121, 235, 92);
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+}
+#navbar-right
+{
+    float: right;
+}
+#navbar-right a{
+    text-decoration: none;
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    line-height: 50px;
+    color: white;
+    
+}
+#navbar-right a:hover
+{
+    color: rgb(255, 47, 172);
+}
+
+.bg
+{
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+}
+.bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
