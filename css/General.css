@@ -1,23 +1,43 @@
-body
+
+.wrapper
 {
+    min-width: 500px;
+    max-width: 1200px;
+    margin: 0px auto 0 px auto;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Footer */
+
 footer
 {
 
-    border-top: 5px solid rgb(121, 235, 92);
     background-color: rgb(121, 235, 92);
     text-align: right;
-    padding-bottom: 5px;
-    position: fixed;
-    bottom: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: sticky;
+    margin-top: auto;
     width: 100%;
 }
+
 footer p
 {
     padding-right: 5px;
     color: white;
 }
+
+
+/* Navigation bar*/
+
 
 #navdiv
 {
@@ -28,10 +48,12 @@ footer p
     z-index: 99;
     position: sticky;
 }
+
 #navbar-right
 {
     float: right;
 }
+
 #navbar-right a{
     text-decoration: none;
     text-align: center;
@@ -41,10 +63,15 @@ footer p
     color: white;
     
 }
+
 #navbar-right a:hover
 {
     color: rgb(255, 47, 172);
 }
+
+
+/* Backround image GIVE SOURCE!!!!!!!!!!!!*/
+
 
 #bg
 {
@@ -55,6 +82,7 @@ footer p
     height: 200%;
     z-index: -1;
 }
+
 #bg img {
     position: absolute;
     top: 0;
