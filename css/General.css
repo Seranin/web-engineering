@@ -46,7 +46,7 @@ footer p
     color: rgb(255, 47, 172);
 }
 
-.bg
+#bg
 {
     position: fixed;
     top: -50%;
@@ -55,7 +55,7 @@ footer p
     height: 200%;
     z-index: -1;
 }
-.bg img {
+#bg img {
     position: absolute;
     top: 0;
     left: 0;
