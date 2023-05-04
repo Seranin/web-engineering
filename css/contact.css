@@ -1,0 +1,8 @@
+
+#contactcontents
+{
+    background-color: rgba(234, 241, 234, 0.5);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}

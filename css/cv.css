@@ -1,40 +1,86 @@
 
 #cvcontents
 {
-    background-color: rgba(119, 240, 119, 0.329);
+    /* rgba(119, 240, 119, 0.329)*/
+    background-color: rgba(234, 241, 234, 0.5);
     padding: 80px;
     display: flex;
     flex-direction: column;
 }
 
+/* TITLES*/
+/* Border around the big one */
+hr
+{
+    border:solid 5px rgb(91, 83, 99);
+    border-radius: 10px;
+    padding: 2px;
+}
+/* Big one */
 h1{
     display: block;
     margin: auto;
     font-weight: bolder;
     font-size: xx-large;
 }
+/* Personal titles, general */
+h2
+{
+    font-weight: bold;
+    font-size: 160%;
+    margin: 40px 0px 30px 0px;
+    text-align: center;
+}
 
+/* Common of the boxes */
+#Akif, #Anita
+{
+    margin-bottom: 20px;
+    border: solid;
+    padding: 10px;
+    background-color: rgba(121, 235, 92, 0.3);
+}
 
+/* TEXT COMMON*/
+#akiftext, #anitatext
+{
+    margin-top: 7%;
+    margin-left: 7%;
+    width: 50%;
+    font-size: 140%;
+    margin-bottom: 7%;
+    margin: 7%;
+}
+#akiftext
+{
+    margin-left: 7%;
+    float: left;
+}
 
+#anitatext
+{
+    float: right;
+    margin-right: 7%;
+}
 
+/* FOTO COMMON */
+#akiffoto, #anitafoto
+{
+    width: 20%;
+    border: solid 10px rgb(44, 199, 186);
+    border-radius: 5%;
+    margin: 3%;
 
-
-
-
-
-
+}
 
 #akiffoto 
 {
-    width: 20%;
     float: right;
-    border: solid 10px rgb(140, 199, 44);
-    border-radius: 5%;
 }
+
 #anitafoto
 {
-    width: 20%;
     float: left;
-    border: solid 10px rgb(140, 199, 44);
-    border-radius: 5%;
+    
 }
+
