@@ -8,13 +8,28 @@
         <link rel="stylesheet" href="../css/CssReset.css">
         <link rel="stylesheet" href="../css/General.css">
         <link rel="stylesheet" href="../css/contact.css">
-        <script src="../code/jquery-3.6.4.js"></script>
         <script>
+            function errorCheck()
+            {
+                var name = document.getElementById("name");
+                var email = document.getElementById("email");
+                var message = document.getElementById("message");
+                if(name.value == "" || email.value == "" || message.value == "")
+                {
+                    document.getElementById("mistake").style.visibility="visible";
+                    return false;
+                }
+                return true
+            }
+
+            function resetbutton()
+            {
+                if(document.getElementById("mistake").style.visibility == "visible")
+                {
+                    document.getElementById("mistake").style.visibility ="hidden";
+                }
+            }
         </script>
-        <!--
-            insesrt script
-        -->
-        
     </head>
     <body>
         <div id="bg">
@@ -38,17 +53,17 @@
         </div>
         <div id="wrapper">
             <div id="contactcontents">
-                <form action="mailto:bl.kul.auc@gmail.com" enctype="text/plain" method="post" onsubmit="return check()" id="mainForm">
+                <form action="mailto:bl.kul.auc@gmail.com" enctype="text/plain" method="post" onsubmit="return errorCheck()" onreset="return resetbutton()" id="mainForm">
                     <h1>
                         Contact us with the form below:
                     </h1>
-                    <p><label for="name">Full Name</label><input class="input" type="text" id="name" name="Full Name"><span>*</span></p>
-                    <p><label for="email">E-mail</label><input class="input" type="text" id="email" name="E-mail"><span>*</span></p>
-                    <p><label for="message">Message</label><textarea name="Message" id="message" cols="30" rows="10"></textarea><span>*</span></p>
+                    <p><label for="name">Full Name </label><input class="input" type="text" id="name" name="Full Name"><span>*</span></p>
+                    <p><label for="email">E-mail </label><input class="input" type="text" id="email" name="E-mail"><span>*</span></p>
+                    <p><label for="message">Message <span>*</span> </label><textarea name="Message" id="message" cols="30" rows="10"></textarea></p>
                     <input type="submit" value="Send E-mail">
                     <input type="reset" value="Reset">
-                    <p><span>*</span>Mandatory fields</p>
-                    <h2 class="red "id="red" > Mandatory fields must be filled in!</h2>
+                    <p><span>*</span> Mandatory fields</p>
+                    <h2 id="mistake" > Mandatory fields must be filled in!</h2>
                 </form>
             </div>
         </div>
