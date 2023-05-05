@@ -38,7 +38,18 @@
         </div>
         <div id="wrapper">
             <div id="contactcontents">
-                
+                <form action="mailto:bl.kul.auc@gmail.com" enctype="text/plain" method="post" onsubmit="return check()" id="mainForm">
+                    <h1>
+                        Contact us with the form below:
+                    </h1>
+                    <p><label for="name">Full Name</label><input class="input" type="text" id="name" name="Full Name"><span>*</span></p>
+                    <p><label for="email">E-mail</label><input class="input" type="text" id="email" name="E-mail"><span>*</span></p>
+                    <p><label for="message">Message</label><textarea name="Message" id="message" cols="30" rows="10"></textarea><span>*</span></p>
+                    <input type="submit" value="Send E-mail">
+                    <input type="reset" value="Reset">
+                    <p><span>*</span>Mandatory fields</p>
+                    <h2 class="red "id="red" > Mandatory fields must be filled in!</h2>
+                </form>
             </div>
         </div>
         <footer>
