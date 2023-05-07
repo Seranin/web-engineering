@@ -12,10 +12,11 @@
 /* Border around the big one */
 hr
 {
-    border:solid 5px rgb(91, 83, 99);
+    border:solid 3px rgb(91, 83, 99);
     border-radius: 10px;
-    padding: 2px;
+    padding-right: 350px;
 }
+
 /* Big one */
 h1{
     display: block;
