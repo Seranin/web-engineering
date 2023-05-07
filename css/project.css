@@ -46,13 +46,13 @@ hr{
     background-color: rgba(66, 89, 224, 0.5);
 }
 
-.pp{
+#images img{
     width: 850px;
     height: 420px;
     display: none;
 }
 
-#img0
+#images img.active
 {
     display: inline-block;
 }
@@ -68,12 +68,12 @@ hr{
     
 }
 
-.des
+#description p
 {
     display: none;
 }
 
-#des0
+#description p.active
 {
     display: inline-block;
 }
