@@ -1,18 +1,11 @@
 
 #projectcontents
 {
-    background-color: rgba(234, 241, 234, 0.5);
+    background-color: rgba(234, 241, 234, 0.7);
     padding: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#power
-{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 }
 
 h1
@@ -26,14 +19,23 @@ hr{
     border-radius: 10px;
     padding-right: 850px;
 }
+#power
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 #intro-text
 {
     width: 800px;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-size: 120%;
 }
-
+/* slideshow*/
 #show
 {
     width: 850px;
@@ -109,4 +111,38 @@ button{
     float: right;
     margin-right: 200px;
     
+}
+
+h2{
+    font-size: x-large;
+    margin-top: 35px;
+    width: 800px;
+}
+
+h3{
+    margin-top: 20px;
+    font-size: x-large;
+    width: 800px;
+}
+
+#imgblock
+{
+    width: 850px;
+    height: 800px;
+    display: none;
+    
+}
+
+#imgblock.show
+{
+    display: inline-block;
+}
+
+#downloadbutton
+{
+    text-decoration: none;
+    margin-top: 35px;
+    border: red solid 5px;
+    background-color: violet;
+    padding: 20px;
 }
