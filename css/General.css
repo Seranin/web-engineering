@@ -14,14 +14,16 @@ body
     display: flex;
     flex-direction: column;
 }
-
+/* Color */
+footer, #navdiv
+{
+    background-color: rgb(85, 165, 65);
+}
 
 /* Footer */
 
 footer
 {
-
-    background-color: rgb(121, 235, 92);
     text-align: right;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -43,25 +45,31 @@ footer p
 #navdiv
 {
     overflow: hidden;
-    background-color: rgb(121, 235, 92);
     width: 100%;
     top: 0;
     z-index: 99;
     position: sticky;
 }
 
+#Logo img{
+    height: 55px;
+    width: 170px;
+}
+
 #navbar-right
 {
+    margin-top: 3px;
     float: right;
 }
 
 #navbar-right a{
     text-decoration: none;
     text-align: center;
-    padding: 40px;
-    font-size: 18px;
+    padding: 50px;
+    font-size: 20px;
     line-height: 50px;
     color: white;
+    
     
 }
 
