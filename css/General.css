@@ -32,8 +32,11 @@ footer
     width: 100%;
 }
 
+
+
 footer p
 {
+    margin-top: 0.5%; /* The margin-top is not needed for firefox and it looks worse there, but I couldnt figure out how to spesicy only that */
     padding-top: 10px;
     float: right;
     padding-right: 7px;
