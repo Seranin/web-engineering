@@ -1,6 +1,6 @@
-var max = 6
+var max = 6;
 $(document).ready(function(){
-    var i = 0;
+    var i = 0; /* I came up with this code and I helped my classmates with it. */
     $("#previous-button").on("click", function(){
         $(`#img${i}`).removeClass("active");
         $(`#des${i}`).removeClass("active");
