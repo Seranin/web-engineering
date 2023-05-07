@@ -24,9 +24,9 @@ footer, #navdiv
 
 footer
 {
-    text-align: right;
+    
     padding-top: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 0px;
     position: sticky;
     margin-top: auto;
     width: 100%;
@@ -34,7 +34,9 @@ footer
 
 footer p
 {
-    padding-right: 5px;
+    padding-top: 10px;
+    float: right;
+    padding-right: 7px;
     color: white;
 }
 
@@ -80,7 +82,8 @@ footer p
 }
 
 
-/* Backround image GIVE SOURCE!!!!!!!!!!!!*/
+/* Backround image */
+/* Used solution 2 from this page to center the backround: https://css-tricks.com/perfect-full-page-background-image/ */
 
 
 #bg

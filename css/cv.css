@@ -1,7 +1,6 @@
 
 #cvcontents
 {
-    /* rgba(119, 240, 119, 0.329)*/
     background-color: rgba(234, 241, 234, 0.5);
     padding: 80px;
     display: flex;
@@ -15,6 +14,8 @@ hr
     border:solid 3px rgb(91, 83, 99);
     border-radius: 10px;
     padding-right: 350px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 /* Big one */
@@ -37,9 +38,9 @@ h2
 #Akif, #Anita
 {
     margin-bottom: 20px;
-    border: solid;
+    border: rgb(91, 83, 99) solid 7px;
     padding: 10px;
-    background-color: rgba(121, 235, 92, 0.3);
+    background-color: rgba(85, 165, 65, 0.3);
 }
 
 /* TEXT COMMON*/
@@ -68,7 +69,7 @@ h2
 #akiffoto, #anitafoto
 {
     width: 20%;
-    border: solid 10px rgb(44, 199, 186);
+    border: solid 5px rgb(91, 83, 99);
     border-radius: 5%;
     margin: 3%;
 

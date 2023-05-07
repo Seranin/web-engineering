@@ -1,7 +1,7 @@
 
 #projectcontents
 {
-    background-color: rgba(234, 241, 234, 0.7);
+    background-color: rgba(234, 241, 234, 0.5);
     padding: 80px;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,9 @@
 h1
 {
     text-align: center;
-    font-size: xx-large;
+    font-size: 250%;
+    font-weight: bold;
+    color:rgb(255, 7, 120);
 }
 
 hr{
@@ -33,7 +35,16 @@ hr{
     width: 800px;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 120%;
+    font-size: 125%;
+    border: rgb(91, 83, 99) solid 7px;
+    padding: 10px;
+    background-color: rgba(85, 165, 65, 0.3);
+}
+
+span{
+    font-size: 110%;
+    font-style: italic;
+    font-weight: 200;
 }
 /* slideshow*/
 #show
@@ -44,8 +55,9 @@ hr{
     overflow: hidden;
     float: left;
     padding: 0px;
-    border: black solid 3px;
-    background-color: rgba(66, 89, 224, 0.5);
+    border: rgb(91, 83, 99) solid 7px;
+    border-bottom: rgb(91, 83, 99) solid 3px;
+    background-color: rgba(85, 165, 65, 0.3);
 }
 
 #images img{
@@ -84,13 +96,14 @@ hr{
 {
     width: 850px;
     height: 50px;
-    background-color: black;
+    background-color: rgb(91, 83, 99);
 }
 
 button{
-    background-color: aqua;
+    margin-top: 3px;
+    background-color: rgba(161, 214, 63, 0.9);
     border: none;
-    color: yellow;
+    color: rgb(255, 7, 120);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -112,17 +125,23 @@ button{
     margin-right: 200px;
     
 }
-
+/* end show */
 h2{
     font-size: x-large;
     margin-top: 35px;
     width: 800px;
+    border: rgb(91, 83, 99) solid 7px;
+    padding: 10px;
+    background-color: rgba(85, 165, 65, 0.4);
 }
 
 h3{
     margin-top: 20px;
     font-size: x-large;
     width: 800px;
+    border: rgb(91, 83, 99) solid 7px;
+    padding: 10px;
+    background-color: rgba(85, 165, 65, 0.5);
 }
 
 #imgblock
@@ -140,9 +159,13 @@ h3{
 
 #downloadbutton
 {
+    font-size: xx-large;
+    color: rgb(255, 7, 120);
     text-decoration: none;
-    margin-top: 35px;
-    border: red solid 5px;
-    background-color: violet;
+    margin-top: 20px;
     padding: 20px;
+    border: rgb(91, 83, 99) solid 6px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(161, 214, 63, 0.9);
 }

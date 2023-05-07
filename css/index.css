@@ -1,10 +1,35 @@
 #homecontents
 {
     display: block;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     margin-left: 25%;
-    margin-top: 10%;
+    margin-top: 6%;
     margin-right: 25%;
-    margin-bottom: 50%;
+    margin-bottom: 6%;
     text-align: center;
+    padding: 10px;
+}
+
+h1{
+    font-size: 350%;
+}
+header p{
+    margin: 5px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+#bigmode
+{
+    font-size: 150%;
+    color:rgb(255, 47, 172);
+}
+p span{
+    color:rgb(255, 47, 172);
+}
+
+#us
+{
+    color: rgb(85, 165, 65);
 }
